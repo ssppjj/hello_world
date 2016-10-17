@@ -1,0 +1,11 @@
+a=0
+n=125
+a=(n%10)+a
+print(a)
+b=3
+b=(n%10)-b
+print(b)
+c=6
+c=c-(n%10)
+print(c)
+print(a+b+c)
